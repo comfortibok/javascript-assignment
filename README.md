@@ -1,4 +1,4 @@
-#Javascript Assignment
+# Javascript Assignment
 This project contains screenshots of the instructions for various JavaScript assignments and demonstrates their implementation using:
 - HTML: For structuring the content.
 - CSS: For styling the user interface.
