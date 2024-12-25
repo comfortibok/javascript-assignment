@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS Assignment 4</title>
+    
+    <select id="genres">
+      <option value="rock">Rock</option>
+      <option value="blues" selected>Blues</option>
+    </select>
+  </head>
+  <body>
+    <script>
+      const selectedOption = document.querySelector("#genres");
+      alert(selectedOption.value);
+      const newOption = document.createElement("option");
+      newOption.value = "classic";
+      newOption.text = "Classic";
+      selectedOption.add(newOption);
+      selectedOption.value = "classic";
+    </script>
+  </body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS Assignment 2</title>
+
+    <!-- Font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <style>
+      body {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: monospace;
+        font-style: italic;
+      }
+      .container {
+        max-width: 800px;
+        margin: 30px auto 0;
+        padding: 10px;
+        background-color: rgb(248, 243, 243);
+        border-left: 4px solid rgb(25, 25, 244);
+        border-radius: 5px;
+      }
+      .blockquote {
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 1.5;
+      }
+      .fa-solid {
+        color: rgb(25, 25, 244);
+        font-size: 25px;
+      }
+      .fa-quote-left {
+        margin-inline-start: 40px;
+      }
+      .fa-quote-right {
+        margin-inline-start: 55px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <script>
+      const div = document.createElement("div");
+      div.setAttribute("class", "container");
+      document.body.append(div);
+
+      const leftquote = document.createElement("span");
+      leftquote.setAttribute("class", "fa-solid fa-quote-left");
+      div.appendChild(leftquote);
+
+      const blockquote = document.createElement("blockquote");
+      blockquote.textContent =
+        "See you on the other side, where we will discuss the Events in JavaScript. May the force be with you.";
+      div.appendChild(blockquote);
+      blockquote.setAttribute("class", "blockquote");
+
+      const rightquote = document.createElement("span");
+      rightquote.setAttribute("class", "fa-solid fa-quote-right");
+      div.appendChild(rightquote);
+    </script>
+  </body>
+</html>
