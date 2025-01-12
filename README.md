@@ -10,3 +10,4 @@ This project contains screenshots of the instructions for various JavaScript ass
 - Interactive examples showcasing JavaScript functionality.
 - Well-structured HTML and CSS to support the project layout.
 
+Hosted URL - https://icm-js.netlify.app
